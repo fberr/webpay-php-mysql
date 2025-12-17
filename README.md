@@ -309,7 +309,7 @@ Almacena la información principal de cada compra realizada en el sistema.
 ```sql
 CREATE TABLE orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    buy_order VARCHAR(100) NOT NULL UNIQUE,
+    buy_order VARCHAR(100) DEFAULT NULL,
     session_id VARCHAR(100) NOT NULL,
     total_amount INT NOT NULL,
     status ENUM('pending', 'paid', 'failed', 'cancelled') DEFAULT 'pending',
