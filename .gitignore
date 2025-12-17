@@ -1,0 +1,15 @@
+.env         
+vendor/
+
+*.log
+*.tmp
+*.cache
+*.swp
+*.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+*.bak
+*.old

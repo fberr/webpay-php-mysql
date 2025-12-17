@@ -1,0 +1,6 @@
+{
+    "require": {
+        "transbank/transbank-sdk": "^5.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
